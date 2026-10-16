@@ -1,0 +1,12 @@
+# Python portable: se genera con setup\crear_python_portable.bat
+# y se distribuye como .zip en los Releases de GitHub, no en el repo.
+python/
+
+# Cache de Python
+__pycache__/
+*.pyc
+
+# Copias de seguridad que generan CoppeliaSim y TIA Portal
+*.ttt.bak
+*.bak
+*.tmp
